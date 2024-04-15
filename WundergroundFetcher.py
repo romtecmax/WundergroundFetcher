@@ -32,7 +32,7 @@ class WundergroundFetcher:
         df_data = []
 
 
-        while (current_date < end_date):
+        while (current_date <= end_date):
             print(f'Fetching data for {current_date}')
 
             # get the data from wunderground
